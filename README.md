@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+このサイトはReact、TypeScript、Viteで構築をしています。
 
-## Available Scripts
+## 機能
 
-In the project directory, you can run:
+- **Password Protection**: ポートフォリオコンテンツへの安全なアクセス
+- **Project Showcase**: web開発のプロジェクトと説明
+- **Project Details**: 各プロジェクトページにスクリーンショットや技術情報を掲載
 
-### `npm start`
+## 使用技術
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend Framework**: React, TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Routing**: React Router
+- **Icons**: Lucide React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### 必要条件
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or later)
+- npm or yarn
 
-### `npm run build`
+### インストール手順
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. リポジトリをクローン
+   ```
+   git clone <repository-url>
+   cd my-portfolio
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. 依存関係をインストール
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. 開発サーバーを起動
+   ```
+   npm run dev
+   ```
 
-### `npm run eject`
+4. ブラウザを開き `http://localhost:5173`にアクセス
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Building for Production
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+本番用のビルドを作成するには、以下のコマンドを実行してください。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ビルド成果物は`dist/` ディレクトリに保存されます。
 
-## Learn More
+## Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+my-portfolio/
+├── public/             # Static assets
+├── src/                # Source files
+│   ├── components/     # React components
+│   ├── images/         # Project images
+│   ├── App.tsx         # Main application component
+│   ├── data.ts         # Project and skills data
+│   ├── main.tsx        # Application entry point
+│   ├── types.ts        # TypeScript type definitions
+│   └── index.css       # Global styles
+├── index.html          # HTML entry point
+├── package.json        # Project dependencies and scripts
+├── tsconfig.json       # TypeScript configuration
+├── vite.config.ts      # Vite configuration
+└── tailwind.config.js  # Tailwind CSS configuration
+```
