@@ -11,7 +11,7 @@ export function PasswordProtection({ onCorrectPassword }: PasswordProtectionProp
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'pass') {
+    if (password === 'asaka-natori') {
       onCorrectPassword();
     } else {
       setError(true);
