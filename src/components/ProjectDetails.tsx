@@ -29,12 +29,21 @@ export function ProjectDetails({ projects }: ProjectDetailsProps) {
   }, []);
 
   const formatTitle = (title: string) => {
-    if (isMobile && title === "ライフスタイルブランドサイト") {
+    if (isMobile && title === "Lifestyle Brand Site") {
       return (
         <span className="inline-block">
-          <span className="inline-block">ライフスタイル</span>
+          <span className="inline-block">Lifestyle</span>
           <span className="block w-full h-0"></span>
-          <span className="inline-block">ブランドサイト</span>
+          <span className="inline-block">Brand Site</span>
+        </span>
+      );
+    }
+    if (isMobile && title === "Skincare E-Commerce Site") {
+      return (
+        <span className="inline-block">
+          <span className="inline-block">Skincare</span>
+          <span className="block w-full h-0"></span>
+          <span className="inline-block">E-Commerce Site</span>
         </span>
       );
     }
@@ -80,10 +89,9 @@ export function ProjectDetails({ projects }: ProjectDetailsProps) {
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">{formatTitle(project.title)}</h1>
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
-              {project.link}
-            </a>
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">
+              {formatTitle(project.title)}
+            </h1>
             <div className="flex flex-wrap justify-center gap-3">
               {project.tags.map((tag) => (
                 <span

@@ -4,8 +4,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Yu Gothic"', '游ゴシック', 'YuGothic', '游ゴシック体', 'sans-serif'],
-        inter: ["Inter", 'sans-serif']
+        sans: [
+          '"Yu Gothic"',
+          'YuGothic',
+          '游ゴシック体',
+          '"Noto Sans JP"',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Hiragino Sans"',
+          '"Hiragino Kaku Gothic ProN"',
+          'sans-serif'
+        ],
+        inter: ["Inter", '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
       },
     },
   },

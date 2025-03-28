@@ -12,8 +12,8 @@ import imgUrl9 from './images/kins-site-4.png';
 export const projects: Project[] = [
   {
     id: "lifestyle-brand-site",
-    title: "ライフスタイルブランドサイト",
-    description: "Shopifyを活用し、シンプルで洗練されたライフスタイルブランドを表現したブランドサイトです。",
+    title: "Lifestyle Brand Site",
+    description: "シンプルで洗練されたライフスタイルブランドを表現したサイトです。",
     image: imgUrl1,
     tags: ["Shopify", "Liquid", "JavaScript"],
     fullDescription: `
@@ -24,20 +24,20 @@ export const projects: Project[] = [
     <br/>
     <p class="p-heading">主な機能</p>
     <ul>
-      <li><strong>商品レビュー機能</strong><br> 購入者のレビューを掲載し、商品の信頼性を向上。</li>
-      <li><strong>Instagram連携</strong><br> まつ毛の施術後の仕上がり画像を表示し、新規顧客の獲得を促進。</li>
-      <li><strong>会員限定販売</strong><br> 特別商品の提供により、会員の利便性と満足度を向上。</li>
+      <li><strong>商品レビュー機能</strong><br> ・購入者のレビューを掲載し、商品の信頼性を向上。</li>
+      <li><strong>Instagram連携</strong><br> ・まつ毛の施術後の仕上がり画像を表示し、新規顧客の獲得を促進。</li>
+      <li><strong>会員限定販売</strong><br> ・特別商品の提供により、会員の利便性と満足度を向上。</li>
     </ul>
     <br/>
     <p class="p-heading">技術スタック</p>
     <ul>
       <li><strong>フロントエンド</strong><br>
-        Shopify (Liquid), JavaScript, CSS</li>
+        ・Shopify (Liquid), JavaScript, CSS</li>
       <li><strong>アプリケーション</strong><br>
         <ul>
-          <li>TrustShop - Reviews（レビュー管理）</li>
-          <li>Instafeed（Instagram連携）</li>
-          <li>LockSmith（会員管理）</li>
+          <li>・TrustShop - Reviews（レビュー管理）</li>
+          <li>・Instafeed（Instagram連携）</li>
+          <li>・LockSmith（会員管理）</li>
         </ul>
       </li>
     </ul>
@@ -51,10 +51,10 @@ export const projects: Project[] = [
   },
   {
     id: "skincare-ec",
-    title: "スキンケア販売ECサイト",
-    description: "ecforceを活用し、「菌」をコンセプトにしたスキンケア商品の販売サイトです。",
+    title: "Skincare E-Commerce Site",
+    description: "菌をコンセプトにしたスキンケア商品の販売サイトです。",
     image: imgUrl6,
-    tags: ["ecforce", "Liquid", "JavaScript", "Vue.js"],
+    tags: ["ecforce", "Liquid", "Vue.js"],
     fullDescription: `
       <p>
         このプロジェクトでは、ecforceを活用して、スキンケア商品の販売に特化したサイトを構築しています。<br/>
@@ -63,16 +63,16 @@ export const projects: Project[] = [
       <br/>
       <p class="p-heading">主な機能</p>
       <ul>
-        <li><strong>定期購入機能</strong><br/> スキンケア商品の定期購入機能を提供。クーポンやポイントも利用可能。</li>
-        <li><strong>商品レビュー機能</strong><br/> 実際の使用感を共有し、他のユーザーの商品選びをサポート。</li>
-        <li><strong>お悩み別検索機能</strong><br/> 乾燥肌やエイジングケア、腸内環境など、ユーザーの悩みに合わせた商品を検索できる機能。</li>
+        <li><strong>定期購入機能</strong><br/> ・スキンケア商品の定期購入機能を提供。クーポンやポイントも利用可能。</li>
+        <li><strong>商品レビュー機能</strong><br/> ・実際の使用感を共有し、他のユーザーの商品選びをサポート。</li>
+        <li><strong>お悩み別検索機能</strong><br/> ・乾燥肌やエイジングケア、腸内環境など、ユーザーの悩みに合わせた商品を検索できる機能。</li>
       </ul> 
       <br/>
       <p class="p-heading">技術スタック</p>
       <ul>
-        <li><strong>フロントエンド</strong><br> ecforce(Liquid), JavaScript, Sass, Vue.js</li>
-        <li><strong>バックエンド</strong><br> ecforce, Python</li>
-        <li><strong>インフラ</strong><br> Google Cloud Platform</li>
+        <li><strong>フロントエンド</strong><br> ・ecforce(Liquid), JavaScript, Vue.js</li>
+        <li><strong>バックエンド</strong><br> ・ecforce, Python</li>
+        <li><strong>インフラ</strong><br> ・Google Cloud Platform</li>
       </ul>
     `,
     screenshots: [
