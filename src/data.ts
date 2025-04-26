@@ -14,7 +14,7 @@ export const projects: Project[] = [
     id: "lifestyle-brand-site",
     title: "Lifestyle Brand Site",
     description:
-      "シンプルで洗練されたライフスタイルブランドを表現したサイトです。",
+      "",
     image: imgUrl1,
     tags: ["Shopify", "Liquid", "JavaScript"],
     fullDescription: `
@@ -48,7 +48,7 @@ export const projects: Project[] = [
   {
     id: "skincare-ec",
     title: "Skincare E-Commerce Site",
-    description: "菌をコンセプトにしたスキンケア商品の販売サイトです。",
+    description: "",
     image: imgUrl6,
     tags: ["ecforce", "Liquid", "Vue.js"],
     fullDescription: `
